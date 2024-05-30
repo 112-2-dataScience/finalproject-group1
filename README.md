@@ -4,8 +4,7 @@ The goals of this project.
 ## Contributors
 |組員|系級|學號|工作分配|
 |-|-|-|-|
-|何大南|資科碩二|110753202|團隊中的吉祥物🦒，負責增進團隊氣氛| 
-|張小明|資科碩二|xxxxxxxxx|團隊的中流砥柱，一個人打十個|
+|黃茂勛|資管大三|110306019|程式開發、Repository維護| 
 
 ## Quick start
 Please provide an example command or a few commands to reproduce your analysis, such as the following R script:
