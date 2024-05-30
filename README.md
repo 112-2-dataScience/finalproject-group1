@@ -4,7 +4,7 @@ The goals of this project.
 ## Contributors
 |組員|系級|學號|工作分配|
 |-|-|-|-|
-|黃茂勛|資管大三|110306019|程式開發、Repository維護|
+|黃茂勛|資管大三|110306019|程式開發(EDA, model)、Repository維護|
 |賴冠儒|廣電大三|110405026|程式開發(EDA)| 
 
 ## Quick start
