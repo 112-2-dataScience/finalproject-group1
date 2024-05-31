@@ -29,9 +29,9 @@ By achieving these goals, the project aims to provide actionable insights into f
 |-|-|-|-|
 |黃茂勛|資管大三|110306019|程式開發(EDA, model)、Repository維護|
 |賴冠儒|廣電大三|110405026|程式開發(EDA)| 
-|林子涵|統計碩二|112354015	程式開發(model)、每周訂討論室|
-|晏煒翔|英文大三|110501035	程式開發(EDA)|
-|管漢程|資科碩一|112753134	程式開發(model)|
+|林子涵|統計碩二|112354015|程式開發(model)、每周訂討論室|
+|晏煒翔|英文大三|110501035|程式開發(EDA)|
+|管漢程|資科碩一|112753134|程式開發(model)|
 
 ## Quick start
 Please provide an example command or a few commands to reproduce your analysis, such as the following R script:
