@@ -6,7 +6,7 @@ library(randomForest)
 library(caret)
 library(pROC)
 ################################################################################
-data <- read.csv("../../data/WA_Fn-UseC_-HR-Employee-Attrition.csv")
+data <- read.csv("WA_Fn-UseC_-HR-Employee-Attrition.csv")
 str(data)
 set.seed(123)
 random_index <- sample(nrow(data))
@@ -75,6 +75,9 @@ random_forest <- function(data, fold) {
   # Train the final model on the entire training set
   final_model <- randomForest(as.factor(Attrition) ~ ., data = train_data, method = "class")
   
+  # feature imnportance
+  print(sort(importance(final_model)[,1],T))
+  
   # Predict on the testing set
   test_pred <- predict(final_model, newdata = test_data, type = "class")
   test_pred_prob <- predict(final_model, newdata = test_data, type = "prob")[,2]
@@ -124,5 +127,4 @@ random_forest <- function(data, fold) {
   ))
 }
 
-
-
+random_forest(data,5)

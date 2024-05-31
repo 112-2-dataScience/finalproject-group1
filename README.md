@@ -1,5 +1,28 @@
 # [Group1] Employees Attrition of IBM
-The goals of this project.
+> Please refer to the README.md in the "results" folder to see the detail experiment results and interpretations.
+
+The goal of this project is to analyze and predict employee attrition within the IBM dataset using various data science techniques. This involves:
+
+1. **Exploratory Data Analysis (EDA)**: 
+  Understanding the data distribution, relationships, and key patterns through statistical tests, visualizations, and summary statistics.
+   - **Chi-Square Test**: Assessing the association between attrition and department.
+   - **ANOVA Test**: Evaluating the effect of job role on monthly income.
+   - **Distribution Analysis**: Examining the distribution of attrition concerning monthly income, age, and years at the company.
+   - **Correlation Analysis**: Identifying key correlations between attrition and other variables, such as monthly income, age, and years at the company.
+
+2. **Model Development and Evaluation**: 
+  Building and evaluating predictive models to identify key factors contributing to employee attrition.
+   - **Model Metrics**: Assessing model performance using metrics such as accuracy, precision, recall, F1 score, and confusion matrix statistics.
+   - **Feature Importance**: Identifying the most significant features influencing attrition predictions.
+
+3. **Visualization**: 
+  Creating informative visualizations to better understand data patterns and model results.
+   - **Distribution Charts**: Visualizing attrition distributions.
+   - **Barcharts and Boxplots**: Depicting average monthly income and job satisfaction levels by attrition status.
+   - **Heatmaps**: Visualizing correlation matrices.
+   - **ROC Curve**: Comparing the performance of the predictive model against a null model.
+
+By achieving these goals, the project aims to provide actionable insights into factors driving employee attrition, enabling the development of strategies to improve employee retention and satisfaction.
 
 ## Contributors
 |組員|系級|學號|工作分配|

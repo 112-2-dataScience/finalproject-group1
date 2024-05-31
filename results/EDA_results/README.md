@@ -32,7 +32,7 @@ This set of charts provides an overview of attrition distribution and its relati
 This bar chart shows the average monthly income of employees in different departments, categorized by their attrition status (Yes or No). Key observations:
 
 * Employees who stayed (No) generally have higher average monthly incomes than those who left (Yes) across all departments.
-* The Research & Development department shows a significant income disparity between employees who stayed and those who left.
+* The Human Resources department shows a significant income disparity between employees who stayed and those who left.
 ![cor_1](cor_barchart.png)
 
 ## Boxplot
@@ -40,7 +40,6 @@ This set of boxplots shows job satisfaction levels categorized by job role and a
 
 * Job satisfaction levels vary across different job roles.
 * In some roles, such as Human Resources and Laboratory Technician, employees who left (Yes) generally had lower job satisfaction compared to those who stayed (No).
-* For roles like Manufacturing Director and Research Scientist, job satisfaction levels are similar regardless of attrition status.
 ![cor_2](cor_boxplot.png)
 
 ## Heatmap
