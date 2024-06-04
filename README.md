@@ -32,6 +32,7 @@ By achieving these goals, the project aims to provide actionable insights into f
 |林子涵|統計碩二|112354015|程式開發(model)、每周訂討論室|
 |晏煒翔|英文大三|110501035|程式開發(EDA)|
 |管漢程|資科碩一|112753134|程式開發(model)|
+|邱士芳|統計大三|110304039|程式開發(model)、海報製作
 
 ## Quick start
 Please provide an example command or a few commands to reproduce your analysis, such as the following R script:
