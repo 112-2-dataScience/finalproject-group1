@@ -24,6 +24,8 @@ The goal of this project is to analyze and predict employee attrition within the
 
 By achieving these goals, the project aims to provide actionable insights into factors driving employee attrition, enabling the development of strategies to improve employee retention and satisfaction.
 
+The Kaggle dataset link: [IBM Attrition](https://www.kaggle.com/code/mragpavank/ibm-hr-analytics-employee-attrition-performance/notebook)
+
 ## Contributors
 |組員|系級|學號|工作分配|
 |-|-|-|-|
