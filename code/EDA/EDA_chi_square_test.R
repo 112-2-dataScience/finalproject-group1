@@ -1,5 +1,5 @@
 # Load the dataset
-data <- read.csv("../../data/WA_Fn-UseC_-HR-Employee-Attrition.csv")
+data <- read.csv("data/WA_Fn-UseC_-HR-Employee-Attrition.csv")
 
 ########## Chi-Square Test ##########
 # Creating a contingency table

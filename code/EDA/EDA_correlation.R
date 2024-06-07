@@ -6,7 +6,7 @@ library(cowplot)
 library(ggthemes)
 
 # Load file
-df <- read.csv("../../data/WA_Fn-UseC_-HR-Employee-Attrition.csv", header = TRUE)
+df <- read.csv("data/WA_Fn-UseC_-HR-Employee-Attrition.csv", header = TRUE)
 head(df)
 
 # Check for missing values

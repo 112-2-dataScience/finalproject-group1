@@ -1,5 +1,5 @@
 # Read the CSV file
-data <- read.csv("../../data/WA_Fn-UseC_-HR-Employee-Attrition.csv")
+data <- read.csv("data/WA_Fn-UseC_-HR-Employee-Attrition.csv")
 
 # Select variables related to attrition
 selected_vars <- data[c("Attrition", "Age", "JobSatisfaction", "MonthlyIncome", "YearsAtCompany")]

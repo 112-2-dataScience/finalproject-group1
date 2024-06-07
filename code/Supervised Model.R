@@ -6,7 +6,7 @@ library(randomForest)
 library(caret)
 library(pROC)
 ################################################################################
-data <- read.csv("WA_Fn-UseC_-HR-Employee-Attrition.csv")
+data <- read.csv("data/WA_Fn-UseC_-HR-Employee-Attrition.csv")
 str(data)
 set.seed(123)
 random_index <- sample(nrow(data))

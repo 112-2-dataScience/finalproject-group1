@@ -1,6 +1,6 @@
 library(tidyverse)
 
-data <- read.csv("../../data/WA_Fn-UseC_-HR-Employee-Attrition.csv")
+data <- read.csv("data/WA_Fn-UseC_-HR-Employee-Attrition.csv")
 
 # Perform ANOVA
 anova_result <- aov(MonthlyIncome ~ JobRole, data = data)
