@@ -3,7 +3,7 @@
 **Data**: `attrition_yes_income` and `attrition_no_income`
 - **t-statistic**: -7.4826
 - **Degrees of freedom**: 412.74
-- **p-value**: \(4.434 \times 10^{-13}\)
+- **p-value**: $4.434 \times 10^{-13}$
 - **Alternative hypothesis**: True difference in means is not equal to 0
 - **95% confidence interval**: -2583.050 to -1508.244
 - **Sample estimates**:
