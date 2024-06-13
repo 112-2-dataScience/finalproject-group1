@@ -113,6 +113,6 @@ finalproject-group1
 * What is your performance?
 * Is the improvement significant? -->
 
-## References
+<!-- ## References
 * Packages you use
-* Related publications
+* Related publications -->
