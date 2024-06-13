@@ -53,7 +53,50 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
   * discussion log
   * software user guide
 
-### data
+### Project structure
+```
+finalproject-group1
+├─ .DS_Store
+├─ .Rhistory
+├─ README.md
+├─ code
+│  ├─ .DS_Store
+│  ├─ EDA
+│  │  ├─ .DS_Store
+│  │  ├─ EDA_ANOVA.R
+│  │  ├─ EDA_ANOVA_2.R
+│  │  ├─ EDA_chi_square_test.R
+│  │  ├─ EDA_correlation.R
+│  │  ├─ EDA_distribution.R
+│  │  └─ EDA_ttest.R
+│  ├─ GridSearch_SMOTE.R
+│  └─ Supervised Model.R
+├─ data
+│  ├─ .DS_Store
+│  └─ WA_Fn-UseC_-HR-Employee-Attrition.csv
+├─ docs
+│  ├─ .DS_Store
+│  ├─ poster_1122_DS-FP_group1.pdf
+│  └─ slides_1122_DS-FP_group1.pdf
+├─ results
+│  ├─ .DS_Store
+│  ├─ EDA_results
+│  │  ├─ .DS_Store
+│  │  ├─ README.md
+│  │  ├─ cor_barchart.png
+│  │  ├─ cor_boxplot.png
+│  │  ├─ cor_heatmap.png
+│  │  └─ distribution.png
+│  └─ model
+│     ├─ .DS_Store
+│     ├─ README.md
+│     ├─ after_smote_grid_search.png
+│     ├─ feature_importance.jpg
+│     └─ roc.jpg
+└─ teaser.png
+```
+
+<!-- ### data
 * Input
   * Source
   * Format
@@ -68,7 +111,7 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
 
 ### results
 * What is your performance?
-* Is the improvement significant?
+* Is the improvement significant? -->
 
 ## References
 * Packages you use
