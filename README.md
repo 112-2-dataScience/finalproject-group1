@@ -39,10 +39,14 @@ The Kaggle dataset link: [IBM Attrition](https://www.kaggle.com/code/mragpavank/
 |邱士芳|統計大三|110304039|程式開發(model)、海報製作
 
 ## Quick start
-Please provide an example command or a few commands to reproduce your analysis, such as the following R script:
+The random forest command (no smote and grid search)
+```R
+Rscript code/Supervised_Model.R
+```
+<!-- Please provide an example command or a few commands to reproduce your analysis, such as the following R script:
 ```R
 Rscript code/your_script.R --input data/training --output results/performance.tsv
-```
+``` -->
 
 ## Folder organization and its related description
 idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
@@ -70,7 +74,7 @@ finalproject-group1
 │  │  ├─ EDA_distribution.R
 │  │  └─ EDA_ttest.R
 │  ├─ GridSearch_SMOTE.R
-│  └─ Supervised Model.R
+│  └─ Supervised_Model.R
 ├─ data
 │  ├─ .DS_Store
 │  └─ WA_Fn-UseC_-HR-Employee-Attrition.csv
