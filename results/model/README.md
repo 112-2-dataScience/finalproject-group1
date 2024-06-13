@@ -66,16 +66,21 @@ The model evaluation results indicate the following:
 | **Balanced Accuracy** | 0.5000 |
 | **Positive Class** | No |
 
+## After SMOTE and Grid Search(Hyperparameters Tuning)
+![after_smote_grid_search](after_smote_grid_search.png)
+
+After SMOTE to oversample the smaller class and to downsample the bigger class, we got higher specificity and Kappa. Moreover, we used grid search and cross validation to find the best hyperparameter combinations. The result reveals that it reaches the better performance comparing to the older version.
+
 ## ROC Curve and AUC Score
 Random Forest(ours): Area under the curve: 0.8185
 Null Model(the majority class): Area under the curve: 0.5
 
 ![roc](roc.jpg)
 
-# Feature Importance
+## Feature Importance
 ![feat_imp](feature_importance.jpg)
 
-## Interpretation
+### Interpretation
 * MonthlyIncome (27.21): This feature has the highest importance, suggesting that it plays a crucial role in the model's predictions.
 * Age (21.53): Age is also highly important, indicating that it significantly impacts the model's outcomes.
 * OverTime (18.70): This feature is another key factor, implying that whether an employee works overtime is important for the model.
