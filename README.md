@@ -1,5 +1,5 @@
 # [Group1] Employees Attrition of IBM
-[teaser](teaser.png)
+![teaser](teaser.png)
 
 > Please refer to the README.md in the "results" folder to see the detail experiment results and interpretations.
 
@@ -12,12 +12,12 @@ The goal of this project is to analyze and predict employee attrition within the
    - **Distribution Analysis**: Examining the distribution of attrition concerning monthly income, age, and years at the company.
    - **Correlation Analysis**: Identifying key correlations between attrition and other variables, such as monthly income, age, and years at the company.
 
-2. **Model Development and Evaluation**: 
+1. **Model Development and Evaluation**: 
   Building and evaluating predictive models to identify key factors contributing to employee attrition.
    - **Model Metrics**: Assessing model performance using metrics such as accuracy, precision, recall, F1 score, and confusion matrix statistics.
    - **Feature Importance**: Identifying the most significant features influencing attrition predictions.
 
-3. **Visualization**: 
+1. **Visualization**: 
   Creating informative visualizations to better understand data patterns and model results.
    - **Distribution Charts**: Visualizing attrition distributions.
    - **Barcharts and Boxplots**: Depicting average monthly income and job satisfaction levels by attrition status.
