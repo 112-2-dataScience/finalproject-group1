@@ -1,4 +1,6 @@
 # [Group1] Employees Attrition of IBM
+[teaser](teaser.png)
+
 > Please refer to the README.md in the "results" folder to see the detail experiment results and interpretations.
 
 The goal of this project is to analyze and predict employee attrition within the IBM dataset using various data science techniques. This involves:
