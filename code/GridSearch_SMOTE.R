@@ -6,7 +6,7 @@ library(dplyr)
 library(pROC)
 # https://rdrr.io/cran/themis/man/smotenc.html
 
-data <- read.csv("data/WA_Fn-UseC_-HR-Employee-Attrition.csv")
+data <- read.csv("finalproject-group1/data/WA_Fn-UseC_-HR-Employee-Attrition.csv")
 # imbalanced data
 # No: 1233, Yes: 237
 
