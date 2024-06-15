@@ -49,7 +49,7 @@ random_forest <- function(data, fold) {
     validation_fold <- train_data[validation_indices, ]
     
     # Train the random forest model
-    model <- randomForest(as.factor(Attrition) ~ ., data = train_fold, method = "class")
+    model <- randomForest(as.factor(Attrition) ~ ., data = train_fold, method = "class", ntree=850, mtry=5)
     
     # Predict on the validation set
     validation_pred <- predict(model, newdata = validation_fold, type = "class")
